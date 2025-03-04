@@ -7,11 +7,13 @@
     <groupId>se.rikardbq</groupId>
     <artifactId>maven-artifacts</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <repo-owner>rikardbq</repo-owner>
         <branch-name>master</branch-name>
     </properties>
 
@@ -61,7 +63,7 @@
                     </includes>
                     <merge>true</merge>
                     <repositoryName>${artifactId}</repositoryName>
-                    <repositoryOwner>rikardbq</repositoryOwner>
+                    <repositoryOwner>${repo-owner}</repositoryOwner>
                     <server>github</server>
                 </configuration>
                 <executions>
