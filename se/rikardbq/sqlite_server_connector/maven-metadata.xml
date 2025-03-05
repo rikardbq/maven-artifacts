@@ -3,10 +3,10 @@
   <groupId>se.rikardbq</groupId>
   <artifactId>sqlite_server_connector</artifactId>
   <versioning>
-    <release>07abe5c</release>
+    <release>1.0</release>
     <versions>
-      <version>07abe5c</version>
+      <version>1.0</version>
     </versions>
-    <lastUpdated>20250304232519</lastUpdated>
+    <lastUpdated>20250305081237</lastUpdated>
   </versioning>
 </metadata>
